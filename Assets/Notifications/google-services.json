@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "488691006644",
+    "project_id": "helpyson",
+    "storage_bucket": "helpyson.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488691006644:android:cc3432a4655a9211076be1",
+        "android_client_info": {
+          "package_name": "com.StarSys.HelpySon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488691006644-kqbik5deqs5p2q1q1n661mag4b0266ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADVADNc0JLR0ri5h3ZOp7U0_4igWrlI2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488691006644-kqbik5deqs5p2q1q1n661mag4b0266ka.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "488691006644-e0muuacaojlgt0gmh60jrgnqt2fcti9u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.StarSys.HelpySon"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

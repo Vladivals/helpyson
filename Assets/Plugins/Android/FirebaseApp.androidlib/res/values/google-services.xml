@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">488691006644</string>
+  <string name="google_storage_bucket" translatable="false">helpyson.appspot.com</string>
+  <string name="project_id" translatable="false">helpyson</string>
+  <string name="google_api_key" translatable="false">AIzaSyADVADNc0JLR0ri5h3ZOp7U0_4igWrlI2w</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADVADNc0JLR0ri5h3ZOp7U0_4igWrlI2w</string>
+  <string name="google_app_id" translatable="false">1:488691006644:android:cc3432a4655a9211076be1</string>
+  <string name="default_web_client_id" translatable="false">488691006644-kqbik5deqs5p2q1q1n661mag4b0266ka.apps.googleusercontent.com</string>
+</resources>
