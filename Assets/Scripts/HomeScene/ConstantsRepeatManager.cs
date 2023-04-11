@@ -18,6 +18,6 @@ public class ConstantsRepeatManager : MonoBehaviour
 
     public const int SampleDataLength = 1024;
 
-    public const float SoundThreshold = 0.0005f;
+    public const float SoundThreshold = 0.007f;
 
 }
