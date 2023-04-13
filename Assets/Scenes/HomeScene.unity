@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.7924528, g: 0.6345897, b: 0.58686364, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1820108, g: 0.2276998, b: 0.30740517, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 6956e3f4a79b9a54d8a4a28f9ddd7ca9,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -335,7 +336,7 @@ GameObject:
   - component: {fileID: 436291346}
   - component: {fileID: 436291345}
   m_Layer: 0
-  m_Name: Directional Light (1)
+  m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -353,19 +354,19 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.51
+  m_Intensity: 1.68
   m_Range: 10
   m_SpotAngle: 75.5
   m_InnerSpotAngle: 1
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
+    m_Type: 2
+    m_Resolution: 3
     m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_Strength: 0.8
+    m_Bias: 0
+    m_NormalBias: 0
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1118,20 +1119,20 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 0.36862746}
-  m_Intensity: 0.91
+  m_Color: {r: 1, g: 1, b: 1, a: 0.38431373}
+  m_Intensity: 1.15
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize: 100
   m_Shadows:
-    m_Type: 0
-    m_Resolution: -1
+    m_Type: 2
+    m_Resolution: 3
     m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
+    m_Strength: 0.8
+    m_Bias: 0
+    m_NormalBias: 0
+    m_NearPlane: 0.1
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -1184,6 +1185,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 43, y: 90.37, z: 0}
+--- !u!1 &1898444210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1898444211}
+  m_Layer: 0
+  m_Name: PostEffects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1898444211
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898444210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1999331095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,11 +2247,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 368516652310639048, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c63f2c51ed87974c985549df6ae1f37, type: 2}
     - target: {fileID: 3090965403484275562, guid: 082bb4d337f25874baf464fea239ea10,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 257f55791b69a2b40b947ff0b15821cf, type: 2}
+    - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_SkinnedMotionVectors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c63f2c51ed87974c985549df6ae1f37, type: 2}
     - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.size
@@ -2228,8 +2275,28 @@ PrefabInstance:
     - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
         type: 3}
       propertyPath: m_BlendShapeWeights.Array.data[0]
-      value: 0.9
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[2]
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6603108724694309651, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c63f2c51ed87974c985549df6ae1f37, type: 2}
+    - target: {fileID: 8594740666650025382, guid: 082bb4d337f25874baf464fea239ea10,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c63f2c51ed87974c985549df6ae1f37, type: 2}
     - target: {fileID: 8596998750071571370, guid: 082bb4d337f25874baf464fea239ea10,
         type: 3}
       propertyPath: m_Name
