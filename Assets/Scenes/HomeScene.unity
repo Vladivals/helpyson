@@ -1050,7 +1050,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 257f55791b69a2b40b947ff0b15821cf, type: 2}
+      objectReference: {fileID: 9100000, guid: abdb40633641aa149966231f1cd5c7a9, type: 2}
     - target: {fileID: 4065074177851098831, guid: 082bb4d337f25874baf464fea239ea10,
         type: 3}
       propertyPath: m_SkinnedMotionVectors
