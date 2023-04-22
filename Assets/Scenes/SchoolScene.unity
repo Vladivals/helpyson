@@ -295,7 +295,7 @@ PrefabInstance:
         type: 3}
       propertyPath: goal
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 242967849}
     - target: {fileID: 5453574158295738664, guid: 647b056b61d0e1048833070b96556f7d,
         type: 3}
       propertyPath: sent
@@ -677,6 +677,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2393119855262583421, guid: 186e5d7c41092084191d720752b0d159,
         type: 3}
       propertyPath: goal

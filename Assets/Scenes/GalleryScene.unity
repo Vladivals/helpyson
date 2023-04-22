@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64db5bb8957c6e14788f5486545ba05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goal: {fileID: 0}
+  goal: {fileID: 1161066386}
   inputField: {fileID: 528403703}
   button: {fileID: 1563606702}
   image: {fileID: 949090813}
