@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Kekos.Models", "MameshibaGames.Kekos.Models.csproj", "{ecbec61d-43d6-ab3f-8860-2f4499d4824b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{099308f1-9ad2-9d10-e148-1b441c7e1b52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Kekos.CharacterEditorScene", "MameshibaGames.Kekos.CharacterEditorScene.csproj", "{d5c7619d-db3b-ce70-0565-5e972d35b7e7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5bdad707-19d6-aeb0-c7bd-c5bcc6123da1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Kekos.DemoScene", "MameshibaGames.Kekos.DemoScene.csproj", "{f08cb0fb-3316-1819-08ea-57562cddd4fe}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Common", "MameshibaGames.Common.csproj", "{b7659a62-98a2-0a0b-e748-10595ca87d61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorThief", "ColorThief.csproj", "{93cef6ec-4ff2-a33c-057a-f6ee39cb5c18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Kekos.RuntimeExampleScene", "MameshibaGames.Kekos.RuntimeExampleScene.csproj", "{b1d7366c-002d-ec52-bc31-12447b0753a8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.External.Shaders", "MameshibaGames.External.Shaders.csproj", "{591a4cc0-e10d-3c9c-d555-e9852915cc62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{43fb79c5-05ba-3281-4529-2c0bbdbc1f7f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Common.Editor", "MameshibaGames.Common.Editor.csproj", "{e884b617-878f-f582-898b-d0c66ceb5859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MameshibaGames.Kekos.Editor", "MameshibaGames.Kekos.Editor.csproj", "{33abd628-a145-5e5e-86f3-ff5d78f25e27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseMessagingActivityGenerator", "FirebaseMessagingActivityGenerator.csproj", "{bc558cba-9ef3-4b60-16fd-c623a6e30813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{0bdeddb9-fc16-68c6-a085-59f9c93cfc65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ecbec61d-43d6-ab3f-8860-2f4499d4824b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ecbec61d-43d6-ab3f-8860-2f4499d4824b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099308f1-9ad2-9d10-e148-1b441c7e1b52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099308f1-9ad2-9d10-e148-1b441c7e1b52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d5c7619d-db3b-ce70-0565-5e972d35b7e7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d5c7619d-db3b-ce70-0565-5e972d35b7e7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5bdad707-19d6-aeb0-c7bd-c5bcc6123da1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5bdad707-19d6-aeb0-c7bd-c5bcc6123da1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{f08cb0fb-3316-1819-08ea-57562cddd4fe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f08cb0fb-3316-1819-08ea-57562cddd4fe}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b7659a62-98a2-0a0b-e748-10595ca87d61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b7659a62-98a2-0a0b-e748-10595ca87d61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93cef6ec-4ff2-a33c-057a-f6ee39cb5c18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93cef6ec-4ff2-a33c-057a-f6ee39cb5c18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b1d7366c-002d-ec52-bc31-12447b0753a8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b1d7366c-002d-ec52-bc31-12447b0753a8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591a4cc0-e10d-3c9c-d555-e9852915cc62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591a4cc0-e10d-3c9c-d555-e9852915cc62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43fb79c5-05ba-3281-4529-2c0bbdbc1f7f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43fb79c5-05ba-3281-4529-2c0bbdbc1f7f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e884b617-878f-f582-898b-d0c66ceb5859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e884b617-878f-f582-898b-d0c66ceb5859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33abd628-a145-5e5e-86f3-ff5d78f25e27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33abd628-a145-5e5e-86f3-ff5d78f25e27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bc558cba-9ef3-4b60-16fd-c623a6e30813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bc558cba-9ef3-4b60-16fd-c623a6e30813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0bdeddb9-fc16-68c6-a085-59f9c93cfc65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0bdeddb9-fc16-68c6-a085-59f9c93cfc65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
