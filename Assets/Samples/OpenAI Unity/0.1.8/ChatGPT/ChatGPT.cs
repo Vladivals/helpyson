@@ -83,7 +83,7 @@ namespace OpenAI
 			button.enabled = false;
 			inputField.enabled = false;
 
-			// Complete the instruction
+			// Complete the instructions
 			var completionResponse = await openai.CreateChatCompletion(new CreateChatCompletionRequest()
 			{
 				Model = "gpt-3.5-turbo-0301",

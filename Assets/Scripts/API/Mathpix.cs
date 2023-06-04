@@ -25,8 +25,13 @@ public class Mathpix : MonoBehaviour
 	public readonly string appId = "starostenkovlad_gmail_com_aa9f05_b76088";
 	public readonly string appKey = "6db0fab128fc858e68f4c6735294da47d1f2bb357f1d67b2abc1150a32b9f18b";
 	public readonly string remoteImageSrc = "https://mathpix-ocr-examples.s3.amazonaws.com/cases_hw.jpg";
-	public string localImageSrc = "D:/UNITYPROJECTS/helpyson-main/Assets/cases_hw.jpg";
+	public string localImageSrc = "/cases_hw.jpg";
 	public string latexResult;
+
+	private void Start()
+	{
+		localImageSrc = Application.dataPath + localImageSrc;
+	}
 
 	[ContextMenu("Send url image")]
 	public void SendUrl()
