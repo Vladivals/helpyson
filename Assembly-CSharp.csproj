@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Behaviours\RoomBehaviour.cs" />
      <Compile Include="Assets\Scripts\Tasks\ImageFiller.cs" />
      <Compile Include="Assets\Scripts\SafeArea.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -51,6 +52,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\Scripts\Behaviours\RoomComponent.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Scripts\PlayerPrefsBehavior.cs" />
@@ -73,6 +75,7 @@
      <Compile Include="Assets\Scripts\ButtonScripts\SchoolSceneTaskProgressController.cs" />
      <Compile Include="Assets\Notifications\PushNotifications.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Scripts\UI\ButtonAnimation.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\Scripts\Camera\MobileCameraController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
@@ -89,9 +92,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-     <Compile Include="Assets\Scripts\Behaviours\RoomBehaviour.cs" />
-     <Compile Include="Assets\Scripts\UI\ButtonAnimation.cs" />
-     <Compile Include="Assets\Scripts\Behaviours\RoomComponent.cs" />
+     <Compile Include="Assets\Scripts\UI\ChatBehaviour.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -362,6 +363,9 @@
     <Reference Include="Firebase.Messaging">
         <HintPath>C:\UnityProjects\helpyson\Assets\Notifications\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\UnityProjects\helpyson\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.App">
         <HintPath>C:\UnityProjects\helpyson\Assets\Notifications\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
@@ -391,9 +395,6 @@
     </Reference>
     <Reference Include="Firebase.Platform">
         <HintPath>C:\UnityProjects\helpyson\Assets\Notifications\Firebase\Plugins\Firebase.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\UnityProjects\helpyson\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>

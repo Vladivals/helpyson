@@ -31,9 +31,10 @@ public class RoomBehaviour : MonoBehaviour
                 currentRoom = room.roomRefs.gameObject;
             }
 
+            DOTween.Kill(room.roomRefs.UI);
             room.roomRefs.UI.gameObject.SetActive(Enum.Parse<RoomType>(type) == room.type);
             room.roomRefs.UI.alpha = 0;
-            room.roomRefs.UI.DOFade(1, 1.5f);
+            room.roomRefs.UI.DOFade(1, 1f);
             room.roomRefs.environment.gameObject.SetActive(Enum.Parse<RoomType>(type) == room.type);
             room.roomRefs.logic.SetActive(Enum.Parse<RoomType>(type) == room.type);
         }

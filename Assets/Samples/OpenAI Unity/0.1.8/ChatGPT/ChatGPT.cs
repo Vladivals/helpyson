@@ -9,7 +9,7 @@ namespace OpenAI
 	public class ChatGPT : MonoBehaviour
 	{
 		public Goal goal;
-		[SerializeField] private InputField inputField;
+		[SerializeField] private TMPro.TMP_InputField inputField;
 		[SerializeField] private Button button;
 		[SerializeField] private RectTransform context;
 
@@ -67,6 +67,11 @@ namespace OpenAI
 
 		private async void SendReply()
 		{
+			if (string.IsNullOrEmpty(inputField.text))
+			{
+				return;
+			}
+
 			goal.OnSubgoalComplete();
 			var newMessage = new ChatMessage()
 			{
@@ -74,6 +79,7 @@ namespace OpenAI
 				Content = inputField.text
 			};
 
+			inputField.text = null;
 			AppendMessage(newMessage);
 
 			if (messages.Count == 0) newMessage.Content = prompt + "\n" + inputField.text;
