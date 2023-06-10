@@ -13,7 +13,7 @@ namespace OpenAI
 		[SerializeField] private Image image;
 		[SerializeField] private GameObject loadingLabel;
 
-		private OpenAIApi openai = new OpenAIApi("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");
+		private OpenAIApi openai = new OpenAIApi("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");
 
 		private void Start()
 		{

@@ -17,7 +17,7 @@ namespace OpenAI
 		[SerializeField] private RectTransform received;
 
 		private float height;
-		private OpenAIApi openai = new OpenAIApi("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");
+		private OpenAIApi openai = new OpenAIApi("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");
 
 		private List<ChatMessage> messages = new List<ChatMessage>();
 		private string prompt = "Act as a random stranger in a chat room and reply to the questions. Don't break character. Don't ever mention that you are an AI model.";
