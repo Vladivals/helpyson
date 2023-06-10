@@ -95,10 +95,10 @@ public class ChatManager : MonoBehaviour {
 		float height = chatObj.GetComponent<RectTransform>().rect.height;
 		float width = chatObj.GetComponent<RectTransform>().rect.width;
 
-		clb.chatbarImage.rectTransform.sizeDelta = new Vector2(width,height + 20);
+		clb.chatbarImage.rectTransform.sizeDelta = new Vector2(width,height + 50);
 		clb.childText.rectTransform.sizeDelta = new Vector2(width,height);
-		clb.childText.fontSize = (int)(clb.childText.fontSize * 0.8f);
-		clb.childText.rectTransform.sizeDelta = new Vector2(clb.childText.rectTransform.sizeDelta.x * 0.8f, clb.childText.rectTransform.sizeDelta.y * 0.8f);
+		clb.childText.fontSize = (int)(clb.childText.fontSize * 0.7f);
+		clb.childText.rectTransform.sizeDelta = new Vector2(clb.childText.rectTransform.sizeDelta.x * 0.7f, clb.childText.rectTransform.sizeDelta.y * 0.7f);
 
 
 		clb.childText.text = msg;

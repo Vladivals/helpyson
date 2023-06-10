@@ -500,6 +500,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7443168869422104158}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &547868369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5453574158295738665, guid: 647b056b61d0e1048833070b96556f7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1902703769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &566997262 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5559290095180580723, guid: 186e5d7c41092084191d720752b0d159,
@@ -609,35 +615,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1313785662}
     m_Modifications:
-    - target: {fileID: 197911249549683444, guid: 186e5d7c41092084191d720752b0d159,
+    - target: {fileID: 14964732447897128, guid: 186e5d7c41092084191d720752b0d159,
         type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0.000030517578
-      objectReference: {fileID: 0}
-    - target: {fileID: 197911249549683444, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 197911249772435697, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.00009918213
-      objectReference: {fileID: 0}
-    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
+      propertyPath: m_Spacing
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5559290095180580723, guid: 186e5d7c41092084191d720752b0d159,
         type: 3}
@@ -749,16 +730,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: --UiSchool--
       objectReference: {fileID: 0}
-    - target: {fileID: 5559290095180580727, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8889863272510403175, guid: 186e5d7c41092084191d720752b0d159,
-        type: 3}
-      propertyPath: button
-      value: 
-      objectReference: {fileID: 1554993537}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 186e5d7c41092084191d720752b0d159, type: 3}
 --- !u!1 &903392889
@@ -1755,6 +1726,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1902703769}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1682154978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547868369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067cbdc17ab460548a01f092e3f5955a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: {fileID: 52910595}
+  chatBarPrefab: {fileID: 1000011034388344, guid: e000c53cfa737443abf6f958fa419af9,
+    type: 3}
+  chatData: []
+  user1ChatBarSprite: {fileID: 21300000, guid: 661f2c6f676485e42bbdaca23dd51992, type: 3}
+  user2ChatBarSprite: {fileID: 21300000, guid: 3f17cc539f1746a42af3fa5f59c5c703, type: 3}
+  textColor: {r: 0, g: 0, b: 0, a: 0}
+  fontSize: 0
+  inputField: {fileID: 0}
 --- !u!1 &1759947139
 GameObject:
   m_ObjectHideFlags: 0
@@ -1921,6 +1913,11 @@ PrefabInstance:
       propertyPath: inputField
       value: 
       objectReference: {fileID: 605735371}
+    - target: {fileID: 5453574158295738664, guid: 647b056b61d0e1048833070b96556f7d,
+        type: 3}
+      propertyPath: chatManager
+      value: 
+      objectReference: {fileID: 1682154978}
     - target: {fileID: 5453574158295738665, guid: 647b056b61d0e1048833070b96556f7d,
         type: 3}
       propertyPath: m_Name

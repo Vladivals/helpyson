@@ -4,8 +4,8 @@ using System.Collections;
 
 public class ChatListObject : MonoBehaviour {
 
-	public Text parentText;
+	public TMPro.TMP_Text parentText;
 	public Image chatbarImage;
-	public Text childText;
+	public TMPro.TMP_Text childText;
 	public Image userImage;
 }
