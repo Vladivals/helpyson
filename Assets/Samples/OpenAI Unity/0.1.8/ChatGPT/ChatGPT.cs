@@ -15,6 +15,7 @@ namespace OpenAI
 
 		[SerializeField] private RectTransform sent;
 		[SerializeField] private RectTransform received;
+		[SerializeField] private ChatManager chatManager;
 
 		private float height;
 		private OpenAIApi openai = new OpenAIApi("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");
@@ -80,7 +81,8 @@ namespace OpenAI
 			};
 
 			inputField.text = null;
-			AppendMessage(newMessage);
+			//AppendMessage(newMessage);
+			chatManager.Send(newMessage);
 
 			if (messages.Count == 0) newMessage.Content = prompt + "\n" + inputField.text;
 
@@ -102,7 +104,8 @@ namespace OpenAI
 				message.Content = message.Content.Trim();
 
 				messages.Add(message);
-				AppendMessage(message);
+				//AppendMessage(message);
+				chatManager.Send(message);
 			}
 			else
 			{
