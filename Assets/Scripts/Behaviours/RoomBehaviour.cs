@@ -38,6 +38,6 @@ public class RoomBehaviour : MonoBehaviour
             room.roomRefs.environment.gameObject.SetActive(Enum.Parse<RoomType>(type) == room.type);
             room.roomRefs.logic.SetActive(Enum.Parse<RoomType>(type) == room.type);
         }
-        transform.DOMove(-currentRoom.transform.localPosition, 1);
+        transform.DOMove(-currentRoom.transform.localPosition, 0.3f);
     }
 }
