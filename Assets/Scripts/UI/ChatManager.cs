@@ -4,6 +4,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using OpenAI;
+using System.Threading.Tasks;
 
 public class ChatManager : MonoBehaviour {
 
@@ -66,6 +67,15 @@ public class ChatManager : MonoBehaviour {
 		{
 			message.Content += "~0";
 		}
+		// message.Content +="~";
+		// if (lastUser == "1")
+		// {
+		// 	message.Content+= "0";
+		// }
+		// else
+		// {
+		// 	message.Content += "1";
+		// }
 		StartCoroutine(ShowUserMsgCoroutine(message.Content));
 	}
 
@@ -95,12 +105,13 @@ public class ChatManager : MonoBehaviour {
 		float height = chatObj.GetComponent<RectTransform>().rect.height;
 		float width = chatObj.GetComponent<RectTransform>().rect.width;
 
-		clb.chatbarImage.rectTransform.sizeDelta = new Vector2(width,height + 50);
+		clb.chatbarImage.rectTransform.sizeDelta = new Vector2(width,height + 20);
 		clb.childText.rectTransform.sizeDelta = new Vector2(width,height);
-		clb.childText.fontSize = (int)(clb.childText.fontSize * 0.7f);
-		clb.childText.rectTransform.sizeDelta = new Vector2(clb.childText.rectTransform.sizeDelta.x * 0.7f, clb.childText.rectTransform.sizeDelta.y * 0.7f);
+		//clb.childText.fontSize = (int)(clb.childText.fontSize * 0.7f);
+		// clb.childText.rectTransform.sizeDelta = new Vector2(clb.childText.rectTransform.sizeDelta.x * 0.7f, clb.childText.rectTransform.sizeDelta.y * 0.7f);
 
 
+		//WriteText(msg, clb);
 		clb.childText.text = msg;
 
 		if (split[1] == "0") {
@@ -114,11 +125,21 @@ public class ChatManager : MonoBehaviour {
 		} else if (split[1] == "1") {
 
 			clb.chatbarImage.sprite = user2ChatBarSprite;
+			lastUser = "1";
 
 			clb.chatbarImage.rectTransform.anchoredPosition = new Vector2(((content.GetComponent<RectTransform>().rect.width-(verticalLayoutGroup.padding.left+verticalLayoutGroup.padding.right))-chatObj.GetComponent<RectTransform>().rect.width),clb.chatbarImage.rectTransform.anchoredPosition.y);
 
 		}
 
+
 		content.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, content.GetComponent<RectTransform>().sizeDelta.y);
+	}
+	private async void WriteText(string message, ChatListObject chatListObject)
+	{
+		foreach (char c in message)
+		{
+			chatListObject.childText.text += c;
+			await Task.Delay(50);
+		}
 	}
 }

@@ -618,7 +618,7 @@ PrefabInstance:
     - target: {fileID: 14964732447897128, guid: 186e5d7c41092084191d720752b0d159,
         type: 3}
       propertyPath: m_Spacing
-      value: 40
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5559290095180580723, guid: 186e5d7c41092084191d720752b0d159,
         type: 3}
@@ -1742,8 +1742,8 @@ MonoBehaviour:
   chatBarPrefab: {fileID: 1000011034388344, guid: e000c53cfa737443abf6f958fa419af9,
     type: 3}
   chatData: []
-  user1ChatBarSprite: {fileID: 21300000, guid: 661f2c6f676485e42bbdaca23dd51992, type: 3}
-  user2ChatBarSprite: {fileID: 21300000, guid: 3f17cc539f1746a42af3fa5f59c5c703, type: 3}
+  user1ChatBarSprite: {fileID: 0}
+  user2ChatBarSprite: {fileID: 0}
   textColor: {r: 0, g: 0, b: 0, a: 0}
   fontSize: 0
   inputField: {fileID: 0}

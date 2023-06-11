@@ -397,13 +397,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 197911249549683445}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a71628bde6964084b7bea06668ca683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 5559290095180580722}
-  InputFieldActive: 0
+  InputFieldActive: 1
   childRectTransform: {fileID: 0}
 --- !u!1 &197911249772435702
 GameObject:
@@ -461,7 +461,7 @@ MonoBehaviour:
     m_Top: 5
     m_Bottom: 5
   m_ChildAlignment: 0
-  m_Spacing: 20
+  m_Spacing: 40
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
