@@ -620,6 +620,36 @@ PrefabInstance:
       propertyPath: m_Spacing
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 197911249549683445, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197911249772435697, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197911249842542975, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197911250699802932, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -420
+      objectReference: {fileID: 0}
+    - target: {fileID: 197911250699802932, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 5559290095180580723, guid: 186e5d7c41092084191d720752b0d159,
         type: 3}
       propertyPath: m_Pivot.x
@@ -729,6 +759,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: --UiSchool--
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039518372365992324, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_LineType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039518372365992324, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_LineLimit
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039518372365992324, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_ContentType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6865971472469176815, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889863272510403175, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: maxHeight
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889863272510403175, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: minHeight
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8889863272510403175, guid: 186e5d7c41092084191d720752b0d159,
+        type: 3}
+      propertyPath: extraHeight
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 186e5d7c41092084191d720752b0d159, type: 3}
